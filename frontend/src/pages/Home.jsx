@@ -18,7 +18,7 @@ function Home() {
                     Create New ticket
                 </Link>
                 <Link
-                    to='/ticket'
+                    to='/tickets'
                     className="btn btn-block"
                 >
                     <FaTicketAlt/>
