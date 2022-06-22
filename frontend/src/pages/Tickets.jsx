@@ -28,7 +28,7 @@ function Tickets() {
 
     return (
         <>
-            <BackButton url='' />
+            <BackButton url='/' />
             <h1>
                 Tickets
             </h1>
@@ -48,7 +48,7 @@ function Tickets() {
                     </div>
                 </div>
                 {tickets.map((ticket) => (
-                    <TicketItem key={ticket.id} ticket={ticket} />
+                    <TicketItem key={ticket._id} ticket={ticket} />
                 ))}
             </div>
         </>
