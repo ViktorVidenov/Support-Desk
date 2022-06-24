@@ -5,7 +5,7 @@ const { getNotes, addtNote } = require('../controllers/noteController')
 
 const { protect } = require('../middleware/authMiddleware')
 
-router.route('/').get(protect, getNotes).post(protect, addtNote)
+router.route('/').get(protect, getNotes).post(protect, addtNote )
  
 module.exports = router
 
